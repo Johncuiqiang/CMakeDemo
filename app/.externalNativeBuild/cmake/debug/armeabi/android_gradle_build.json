@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "/home/cuiqiang/software/mygithub/CMakeDemo/app/CMakeLists.txt" ],
+	"buildFiles" : [ "D:/myGithub/ffmpeg/FFmpegDemo/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/cuiqiang/Android/sdk/cmake/3.6.4111459/bin/cmake --build /home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/armeabi --target clean"
+		"E:\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\myGithub\\ffmpeg\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,27 +12,27 @@
 		{
 			"abi" : "armeabi",
 			"artifactName" : "hello-lib",
-			"buildCommand" : "/home/cuiqiang/Android/sdk/cmake/3.6.4111459/bin/cmake --build /home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/armeabi --target hello-lib",
+			"buildCommand" : "E:\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\myGithub\\ffmpeg\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target hello-lib",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/cuiqiang/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/cuiqiang/Android/sdk/ndk-bundle/sysroot  -Dhello_lib_EXPORTS -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/cuiqiang/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/home/cuiqiang/software/mygithub/CMakeDemo/app/src/main/cpp/hello.cpp",
-					"workingDirectory" : "/home/cuiqiang/software/mygithub/CMakeDemo/app/.externalNativeBuild/cmake/debug/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=E:/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/SDK/ndk-bundle/sysroot  -Dhello_lib_EXPORTS -isystem E:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem E:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem E:/SDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/myGithub/ffmpeg/FFmpegDemo/app/src/main/cpp/hello.cpp",
+					"workingDirectory" : "D:/myGithub/ffmpeg/FFmpegDemo/app/.externalNativeBuild/cmake/debug/armeabi"
 				}
 			],
-			"output" : "/home/cuiqiang/software/mygithub/CMakeDemo/app/build/intermediates/cmake/debug/obj/armeabi/libhello-lib.so",
-			"toolchain" : "16380986045031328992"
+			"output" : "D:/myGithub/ffmpeg/FFmpegDemo/app/build/intermediates/cmake/debug/obj/armeabi/libhello-lib.so",
+			"toolchain" : "4061565201"
 		}
 	},
 	"toolchains" : 
 	{
-		"16380986045031328992" : 
+		"4061565201" : 
 		{
-			"cCompilerExecutable" : "/home/cuiqiang/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/cuiqiang/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+			"cCompilerExecutable" : "E:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }
